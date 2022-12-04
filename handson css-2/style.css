@@ -1,0 +1,114 @@
+body{
+   
+    border: 8px solid green;
+    border-style:groove;
+    background-image: url("./asdf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2300px;
+    
+}
+
+.parent>div{
+    display: inline-block;
+    position: relative;
+    border: 5px solid red;
+    margin: 30px;
+    background-color: black;
+    color: white;
+   
+}
+
+.child1{
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.child2{
+    position: absolute;
+    padding:5px 25px;
+    border-radius: 20px;
+    right: 180px;
+    bottom: 28px;
+}
+
+
+.child3{
+    position: absolute;
+    top:20px;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+
+.two{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+   border: 5px solid gray;
+   background-color:cornflowerblue;
+   font-size: 25px;
+   text-decoration: underline;
+   text-align: center;
+  top: 300px;
+   left: 120px;
+}
+
+.form{
+    position: absolute;
+    right: 180px;
+     top: 350px;
+    border: 5px solid red;
+    border-style: dashed;
+    background-color:cyan;
+    color:red;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+   
+}
+
+.circle{
+    position: relative;
+    top:120px;
+}
+
+
+
+
+h2{
+    position: absolute;
+    top: 1250px;
+   left: 550px;
+    border: 5px solid red;
+    width: 250px;
+    padding:15px;
+    margin:20px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+   
+  
+}
+
+.menu{
+ position: relative;
+ top: 750px;
+ display: flex;
+ flex-flow: wrap;
+justify-content: center;
+align-content: center;
+}
+
+.item{
+    border: 5px solid green;
+    border-radius: 25px;
+    background-color:aqua;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
