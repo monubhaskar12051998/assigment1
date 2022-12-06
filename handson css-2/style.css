@@ -9,7 +9,7 @@ body{
     
 }
 
-.parent>div{
+.parent >div{
     display: inline-block;
     position: relative;
     border: 5px solid red;
