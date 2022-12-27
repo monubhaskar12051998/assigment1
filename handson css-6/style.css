@@ -138,15 +138,16 @@ button{
     border-radius:7px;
     padding: 10px;
 }
-.camel{
-    height: 30px;
-    width: 30px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
+
 .abc{
     height: 30px;
     width: 30px;
     margin-top: -30px;
     margin-left: 260px;
+}
+.camel{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
